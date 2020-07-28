@@ -1,0 +1,90 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.c-main {
+    background-image: url("assets/Rectangle.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.c-field__label {
+    color: white;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+}
+
+.c-field__label-password {
+    position: relative;
+}
+
+.c-field__label-password-eye {
+    position: absolute;
+    z-index: 2;
+    right: 24px;
+    top: 24px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.fundo {
+    background-size: cover;
+    background-position: center;
+    height: 637px;
+    background-image: url(../src/assets/Rectangle.png);
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 600px) {
+    .fundo {
+        background-size: cover;
+        background-position: center;
+        background-image: url(../src/assets/Rectangle.png);
+        background-repeat: no-repeat;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.input-field {
+    background: #47484C;
+    border-bottom: 3px solid #E57728;
+    color: white !important;
+    border-radius: 8px !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border: none !important;
+}
